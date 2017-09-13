@@ -1,6 +1,9 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
+# Use the following line to use Mobile Center Analytics and Crashes.
+pod 'MobileCenter'
+
 target 'mobileCenterTest' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
@@ -10,7 +13,7 @@ target 'mobileCenterTest' do
   pod 'MobileCenter/Analytics', '~> 0.12.1'
   pod 'RNMobileCenterShared', '~> 0.9.0'
 
-  
+
 
   target 'mobileCenterTestTests' do
     inherit! :search_paths
@@ -19,15 +22,15 @@ target 'mobileCenterTest' do
 
 end
 
-target 'mobileCenterTest-tvOS' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
-  # Pods for mobileCenterTest-tvOS
-
-  target 'mobileCenterTest-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-end
+# target 'mobileCenterTest-tvOS' do
+#   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+#   # use_frameworks!
+#
+#   # Pods for mobileCenterTest-tvOS
+#
+#   target 'mobileCenterTest-tvOSTests' do
+#     inherit! :search_paths
+#     # Pods for testing
+#   end
+#
+# end
