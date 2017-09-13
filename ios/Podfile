@@ -2,7 +2,7 @@
 # platform :ios, '9.0'
 
 # Use the following line to use Mobile Center Analytics and Crashes.
-pod 'MobileCenter'
+
 
 target 'mobileCenterTest' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
