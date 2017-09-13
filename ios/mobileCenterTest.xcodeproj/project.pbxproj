@@ -1336,6 +1336,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileCenterTest;
 				PRODUCT_NAME = mobileCenterTest;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1361,6 +1362,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileCenterTest;
 				PRODUCT_NAME = mobileCenterTest;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
