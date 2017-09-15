@@ -707,7 +707,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 27QE873F4P;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1321,7 +1321,7 @@
 			baseConfigurationReference = 5C6C62DEEC947B217033A89D /* Pods-mobileCenterTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 27QE873F4P;
@@ -1340,8 +1340,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobileCenterTest;
 				PRODUCT_NAME = mobileCenterTest;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "8ac992fe-8915-4397-9d7e-d728436bdd68";
+				PROVISIONING_PROFILE_SPECIFIER = mobileCenterTest;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1351,7 +1351,7 @@
 			baseConfigurationReference = ECCBD0DA109A99F721EEFC53 /* Pods-mobileCenterTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 27QE873F4P;
 				HEADER_SEARCH_PATHS = (
@@ -1369,8 +1369,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobileCenterTest;
 				PRODUCT_NAME = mobileCenterTest;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "6f850b50-60bb-42f3-9fe4-06dd313bd96c";
+				PROVISIONING_PROFILE_SPECIFIER = mobileCenterTest;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
